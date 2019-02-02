@@ -57,3 +57,14 @@ The keyword argument end can be used to avoid the newline after the output, or e
 ...     a, b = b, a+b
 ...
 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
+
+
+
+
+******************************* http://pythontutor.com/visualize.html#mode=edit *************************************
+
+visit here for know the flow of the program.
+paste the code and click
+visualize the code 
+
+******************************** http://pythontutor.com/visualize.html#mode=edit ************************************
