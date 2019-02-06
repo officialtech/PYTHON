@@ -30,3 +30,45 @@ That are:-
 
 ************************************* argument = any number of times *****************************************************
 *************************************** return = will be only one ********************************************************
+
+
+_________________________________________EXAMPLES_________________________________________________________________________
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Function without arguments and without return
+
+def sum():
+    a = 540
+    b = 404
+    print("Sum is", a + b)
+sum()
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Function with arguments and without return 
+
+def sum(x, y, z = 980):      # x and y are required arg's z is default arg.
+    print("Total", x + y + z)
+    
+sum(320, 540)  # x = 320  y = 540
+
+sum(98, 32, 54)   # x = 98  y = 32  z = 54
+
+sum(y = 4, x = 101)   # z get default value
+
+sum(x = 100, z = 10, y = 10)
+
+
+ororororororororororororororororororororororororororororororororororororororororororororororororororororororororororororor
+
+def sum(x, y, z = 100):
+    print("TOTAL", x + y + z)
+    
+n_1 = int(input("Enter Number:"))
+n_2 = int(input("Enter Number:"))
+
+sum(n_1, n_2)         # n_1 assign to x and n_2 assign to y
+
+#########################################################################################################################
