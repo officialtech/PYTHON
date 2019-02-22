@@ -4,12 +4,12 @@
 Operators will perform operation on operands
 In python, Arithmetic Operators follow BODMAS rule
 
-B ------ Brackets
-O ------ Orders
-D ------- Division
-M ------- Multiplication
-A ------- Addition
-S ------- Subtraction
+B #------ Brackets
+O #------ Orders
+D #------- Division
+M #------- Multiplication
+A #------- Addition
+S #------- Subtraction
 
 In Python, we have below given operators
 
@@ -23,36 +23,36 @@ In Python, we have below given operators
 >>>8. Identity Operator <<<
 
 
-**************************************** Arithmetic Operators *****************************
+#**************************************** Arithmetic Operators *****************************
 
 # Addition
 >>> 100 + 200 
 300
-----------------------
+#----------------------
 # Subtraction
 >>> 250 - 145
 105
-------------------------
+#------------------------
 # Multiplication
 >>> 25 * 2
 50
------------------------------
+#-----------------------------
 # Division
 >>> 25 / 3
 8.333333333333334
------------------------------------
+#-----------------------------------
 # Modulus
 >>> 10 % 3
 1
--------------------------------------------
+#-------------------------------------------
 # Floor Division
 >>> 25 // 4
 6
-------------------------------------------------------
+#------------------------------------------------------
 # Exponential
 >>> 5 ** 4
 625
---------------------------------------------------------------
+#--------------------------------------------------------------
 
 #-##########################################################1######################################################################1#
 TO DO                     45 + 2 - 8 * 9 + 5 / 2 + 16 - 8 * 2 / 2 + 6 + 4 / 2 - 5
@@ -61,28 +61,28 @@ TO DO                     45 + 2 - 8 * 9 + 5 / 2 + 16 - 8 * 2 / 2 + 6 + 4 / 2 - 
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ RELATIONAL OPERATORS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ RELATIONAL OPERATORS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The relational Operators will find the relation between two(2) operands and results True and False.
 
 >>> 10 > 10
 False
------------------------------------ Greater than
+#-----------------------------------^ Greater than
 >>> 10 >= 10
 True
------------------------------------- Greater than or equall to
+#------------------------------------^ Greater than or equall to
 >>> 10 < 5
 False
-------------------------------------- Less than
+#-------------------------------------^ Less than
 >>> 10 != 5
 True
-------------------------------------- Is Not Equall to
+#-------------------------------------^ Is Not Equall to
 >>> 10 == 6
 False
-------------------------------------- Is Equall to
+#-------------------------------------^ Is Equall to
 >>> 808 <= 944
 False
-------------------------------------- Less than or equall to
+#-------------------------------------^ Less than or equall to
 
 
 
@@ -91,9 +91,9 @@ False
 American Standard Code for Information Interchange
 The ASCII values are 256 that are from 0 to 255.
 
---------------- type this on your python interpreter ---------- ord('A')
+#--------------- type this on your python interpreter ---------- ord('A')
 
------------------- type this on your python interpreter -------- chr(65)
+#------------------ type this on your python interpreter -------- chr(65)
 
 
 
@@ -119,14 +119,14 @@ True
 
 
 
-----------------------------------------------------------# Logical Operators #---------------------------------------------------
+#----------------------------------------------------------# Logical Operators #---------------------------------------------------
 
   logical and
   logical or
   logical not
   
 
-  -----------------------------------------------------# Logical and #--------------------------------------------------------
+  #-----------------------------------------------------# Logical and #--------------------------------------------------------
   
   logical and is working from left side to right side
   
@@ -213,7 +213,7 @@ True
 
 
 
----------------------------------------------------- # Logical not # -------------------------------------------------------
+#---------------------------------------------------- # Logical not # -------------------------------------------------------
 
 Logical not will inverse the result
 
@@ -324,11 +324,11 @@ in
 not in
 
 
----------------------------- in
+#---------------------------- in
 
 It evaluates to True if it finds a value in specified sequence or False otherwise
 
----------------------------- not in
+#---------------------------- not in
 
 It evaluates to True if it does not finds a value in the specified sequence or False otherwise
 
@@ -352,16 +352,16 @@ print(944 in my_friends)  # False
 
 
 
-------------------------------------------------- Identity Operators ------------------------------------------------
+#------------------------------------------------- Identity Operators ------------------------------------------------
 
 is
 is not
 
 
------------------------------------------------- is
+#------------------------------------------------ is
 True if the operands are identical (refer to same object)
 
------------------------------------------------- is not
+#------------------------------------------------ is not
 True if the operands are not identical (do not refer to the same object)
 
 
