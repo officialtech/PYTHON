@@ -16,7 +16,7 @@ In Python, we have below given operators
 >>>1. Arithmetic Operators <<<
 >>>2. Relational Operators <<<
 >>>3. Logical Operators <<<
->>>. Assignment Operator <<<
+>>>4. Assignment Operator <<<
 >>>5. ShortHand Assignment Operators <<<
 >>>6. Bitwise Operators <<<
 >>>7. Membership Operators <<<
@@ -76,10 +76,10 @@ False
 ------------------------------------- Less than
 >>> 10 != 5
 True
-------------------------------------- Is Not Equall
+------------------------------------- Is Not Equall to
 >>> 10 == 6
 False
-------------------------------------- Is Equall
+------------------------------------- Is Equall to
 >>> 808 <= 944
 False
 ------------------------------------- Less than or equall to
@@ -117,3 +117,286 @@ False
 True
 .........................
 
+
+
+----------------------------------------------------------# Logical Operators #---------------------------------------------------
+
+  logical and
+  logical or
+  logical not
+  
+
+  -----------------------------------------------------# Logical and #--------------------------------------------------------
+  
+  logical and is working from left side to right side
+  
+  it first check left side condition if left side condition is True than only controller will check right side
+  
+  if left side condition is False, controller will skip right side condition and results False
+  
+
+age = int(input("Age: "))
+print(age >= 20 and age <= 60)
+
+# output
+
+Age: 23
+True
+
+  
+>>> 10 > 20 and 20 < 10
+False
+
+>>> 20 > 4 and 12 > 8
+True
+>>>   
+  
+
+>>> 10  and 10
+10
+
+>>> 20 and 10
+10
+
+>>> 10 and 20
+20
+
+>>> 23 and 2 # it always give last executed value
+2
+
+>>> 0 and 1
+0
+
+>>> 1 and 0
+0
+
+>>> 1 and 00
+0
+
+>>> 0 and 199
+0  
+
+
+
+# ------------------------------------------------------- Logical or ----------------------------------------------------------------- #
+
+The 'logical or' will execute left to right
+
+if left side condition is True controller never check right side and returns True
+
+if Left side condition is Flase than only controller will check right side
+
+
+>>> 11 > 12 or 21 > 11
+True
+
+>>> 12 < 12 or 11 > 11
+False
+
+>>> 1 > 0 or 40 < 10
+True
+
+>>> 808 and 944
+944
+
+>>> 944 or 0
+944
+
+>>> 0 or 0
+0
+
+>>> 1 or 45 # it's checking first condition only if it's True
+1
+
+>>> 45 or 0
+45
+
+
+
+---------------------------------------------------- # Logical not # -------------------------------------------------------
+
+Logical not will inverse the result
+
+'not' operator will have only one operand that is right side to the operator
+
+
+>>> not True
+False
+
+>>> not False
+True
+
+>>> not 10 > 10
+True
+
+>>> not 944 >= 944
+False
+
+>>> not "official tech"
+False
+
+>>> not 0
+True
+
+>>> not 1010
+False
+
+>>> not 'a'
+False
+
+
+
+
+
+
+########################################################################################################################################
+                                                    Assignment Operator (=)
+########################################################################################################################################
+
+
+The assignment operator will work from right to left
+
+left side must be variable only
+
+right side must be variable, value, expression, method/function, onject
+
+Value --- a = 10
+variable --- b = a
+expression --- c = a * b
+function/method --- j = len('officially me')
+
+
+
+######################################################################################################################################
+                                              ShortHand assignment operators
+#######################################################################################################################################
++=
+-=
+*=
+/=
+%=
+**=
+<<=
+>>=
+//=
+
+>>> j = 944
+>>> j += 808
+>>> j
+1752
+
+
+>>> j = 944
+>>> j += 808
+>>> j
+1752
+
+
+>>> j *= 2
+>>> j
+3504
+
+
+>>> r = 99
+>>> r -= 9
+>>> r
+90
+
+
+>>> r %= 8
+>>> r
+2
+
+
+>>> r **= 3
+>>> r
+8
+
+
+
+
+####################################################################################################################################
+                                                  Membership Operators
+####################################################################################################################################
+
+
+in
+not in
+
+
+---------------------------- in
+
+It evaluates to True if it finds a value in specified sequence or False otherwise
+
+---------------------------- not in
+
+It evaluates to True if it does not finds a value in the specified sequence or False otherwise
+
+
+>>> lst = ['jb', 1, 3, 6, 944, 1010, 'jin', 'chao']
+>>> 'jb' in lst
+True
+
+>>> 'jb' not in lst
+False
+
+>>> 4 in lst
+False
+
+
+
+my_friends = ['shadow', 'dark', 'hell', 'peak']
+print('dark' in my_friends)  # True 
+print('you' in my_friends)  # False
+print(944 in my_friends)  # False
+
+
+
+------------------------------------------------- Identity Operators ------------------------------------------------
+
+is
+is not
+
+
+------------------------------------------------ is
+True if the operands are identical (refer to same object)
+
+------------------------------------------------ is not
+True if the operands are not identical (do not refer to the same object)
+
+
+>>> a = 10
+>>> b = 10
+>>> a is b
+True
+
+>>> print(a is b)
+True
+ 
+>>> print(a is not b)
+False
+
+
+
+
+
+
+x1 = 5
+y1 = 5
+x2 = 'Hello'
+y2 = 'Hello'
+x3 = [1,2,3]
+y3 = [1,2,3]
+
+# Output: False
+print(x1 is not y1)
+
+# Output: True
+print(x2 is y2)
+
+# Output: False
+print(x3 is y3)
+
+
+
+https://www.programiz.com/python-programming/operators
