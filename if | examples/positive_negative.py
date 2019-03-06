@@ -11,21 +11,16 @@ pos_neg(-4, -5, True) → True
  """
 
 
+
 def positive_negative(int1, int2, negative):
-    if int1 > 0 and int2 < 0:
-        if negative == 'False':
-            return True
-        else:
-            return False
-    elif int1 < 0 and int2 > 0:
-        if negative == 'False':
-            return True
-        else:
-            return False
-    elif int1 < 0 and int2 < 0:
-        if negative == 'False':
-            return False
-        else:
-            return True
-    else:
-        return False
+    if negative:
+        return (int1 < 0 and int2 < 0)
+    return ((int1 > 0 and int2 < 0) or (int1 < 0 and int2 > 0))
+
+
+int1 = int(input("Number 1(+/-): "))
+int2 = int(input("Number 2(+/-): "))
+negative = input("True or False: ").capitalize().strip()
+
+print(positive_negative(int1, int2, negative))
+
