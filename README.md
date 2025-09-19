@@ -6,6 +6,9 @@ def _greeting_from_time(local_time_str: str | None) -> str:
     Parse a local time string (various formats) and return a part-of-day greeting.
     Handles AM/PM and 24h times. Fallback: 'Hello'.
     """
+    import re
+    from datetime import datetime
+
     if not local_time_str:
         return "Hello"
 
