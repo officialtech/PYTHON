@@ -1,3 +1,35 @@
+
+# Install Python On Server
+- Any Version
+
+- Add the Deadsnakes PPA:
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+
+- Update Package List:
+```bash
+sudo apt update
+```
+
+- Install Python 3.12 (Here you can choose any version of Python):
+```bash
+sudo apt install python3.12
+```
+
+- Verify Installation:
+```bash
+python3.12 --version
+```
+
+
+
+
+
+
+
+---
+
 # Greet based on time
 
 ```python
